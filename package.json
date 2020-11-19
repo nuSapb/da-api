@@ -1,0 +1,37 @@
+{
+  "name": "da-api",
+  "version": "1.0.0",
+  "description": "api for data analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e ejs,js index.js"
+  },
+  "repository": "git+https://github.com/nuSapb/da-api.git",
+  "author": "Anu S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuSapb/da-api/issues"
+  },
+  "homepage": "https://github.com/nuSapb/da-api#readme",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "global": "^4.4.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^2.5.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.6",
+    "koa-session": "^5.13.1",
+    "koa-static": "^5.0.0",
+    "moment": "^2.24.0",
+    "mssql": "^6.2.3",
+    "nodemon": "^2.0.6",
+    "pg": "^7.18.1",
+    "pg-promise": "^10.4.3",
+    "uuid": "^7.0.0",
+    "uuid4": "^1.1.4"
+  }
+}
