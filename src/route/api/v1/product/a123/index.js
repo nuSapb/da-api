@@ -4,7 +4,11 @@ const a123 = require('./a123-handler')
 
 const router = new Router()
 router.get('/', list)
-router.get('/data', a123.getDataHandler)
+router.get('/all', a123.getMergeDataHandler)
+router.get('/db2', a123.getDataS2Handler)
+router.get('/db3', a123.getDataS3Handler)
+router.get('/testdetail2', a123.getDataS2TestDetailHandler)
+router.get('/testdetail3', a123.getDataS3TestDetailHandler)
 
 
 module.exports = router.routes()
